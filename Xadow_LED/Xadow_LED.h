@@ -35,7 +35,7 @@ private:
     uchar cmd_get;
     uchar dirDisp;
 
-private:
+public:
 
     void putIntMatrix(unsigned int *matrix);
     uchar byteRev(uchar dta);
